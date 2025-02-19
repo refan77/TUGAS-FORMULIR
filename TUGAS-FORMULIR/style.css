@@ -1,0 +1,138 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Container styling */
+  .container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  /* Form title styling */
+  h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  /* Form label styling */
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* Input fields and text areas styling */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  select,
+  textarea,
+  input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  select {
+    padding: 12px;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1em;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Checkbox styling */
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* File input label styling */
+  input[type="file"] {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 1.8em;
+    }
+  
+    h3 {
+      font-size: 1.1em;
+    }
+  }
+  
+  /* Additional space for form fields */
+  input[type="text"], 
+  input[type="email"], 
+  input[type="tel"],
+  input[type="date"],
+  select,
+  textarea {
+    margin-top: 5px;
+  }
+  
+  /* Text area for descriptions (larger area) */
+  textarea {
+    min-height: 100px;
+  }
+  
+  /* Adjust margin on button */
+  button {
+    margin-top: 20px;
+  }
